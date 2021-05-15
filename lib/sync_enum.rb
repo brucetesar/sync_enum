@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-require_relative "sync_enum/version"
+require_relative 'sync_enum/version'
 
-module SyncEnum
+class SyncEnum
   class Error < StandardError; end
   # Your code goes here...
 end
