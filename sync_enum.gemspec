@@ -9,16 +9,29 @@ Gem::Specification.new do |spec|
   spec.email         = ['tesar@rutgers.edu']
 
   spec.summary       = 'Iterates over multiple enumerators.'
-  # spec.description   = "TODO: Write a longer description or delete this line."
-  # spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.description   =
+    'Iterate over multiple enumerators in parallel, using the external interface
+     based on the #next method. Each call to #next returns an array, containing
+     the next element for each of the enumerators. A StopIteration exception
+     is raised as soon as any of the enumerators runs out of elements.
+
+     SyncEnum differs from the standard library\'s REXML::SyncEnumerator in its
+     use of the #next external iterator interface, while REXML::SyncEnumerator
+     uses an #each internal interator interface. The external interface is more
+     convenient when you expect to end iteration before reaching the end of
+     any of the enumerations, including cases where an enumerator generates
+     an unending sequence.'
+
+  spec.homepage      = 'https://github.com/brucetesar/sync_enum'
   spec.license       = 'MIT'
   spec.required_ruby_version = Gem::Requirement.new('>= 2.6.0')
 
   # spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
 
-  # spec.metadata["homepage_uri"] = spec.homepage
-  # spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
-  # spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+  spec.metadata['homepage_uri'] = spec.homepage
+  spec.metadata['source_code_uri'] = 'https://github.com/brucetesar/sync_enum'
+  spec.metadata['changelog_uri'] =
+    'https://github.com/brucetesar/sync_enum/blob/master/CHANGELOG.md'
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been
