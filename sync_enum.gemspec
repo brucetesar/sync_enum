@@ -1,18 +1,18 @@
 # frozen_string_literal: true
 
-require_relative "lib/sync_enum/version"
+require_relative 'lib/sync_enum/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "sync_enum"
+  spec.name          = 'sync_enum'
   spec.version       = SyncEnum::VERSION
-  spec.authors       = ["Bruce Tesar"]
-  spec.email         = ["tesar@rutgers.edu"]
+  spec.authors       = ['Bruce Tesar']
+  spec.email         = ['tesar@rutgers.edu']
 
-  spec.summary       = "Iterates over multiple enumerators."
+  spec.summary       = 'Iterates over multiple enumerators.'
   # spec.description   = "TODO: Write a longer description or delete this line."
   # spec.homepage      = "TODO: Put your gem's website or public repo URL here."
-  spec.license       = "MIT"
-  spec.required_ruby_version = Gem::Requirement.new(">= 2.6.0")
+  spec.license       = 'MIT'
+  spec.required_ruby_version = Gem::Requirement.new('>= 2.6.0')
 
   # spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
 
@@ -21,13 +21,15 @@ Gem::Specification.new do |spec|
   # spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
 
   # Specify which files should be added to the gem when it is released.
-  # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
+  # The `git ls-files -z` loads the files in the RubyGem that have been
+  # added into git.
   spec.files = Dir.chdir(File.expand_path(__dir__)) do
-    `git ls-files -z`.split("\x0").reject { |f| f.match(%r{\A(?:test|spec|features)/}) }
+    `git ls-files -z`.split("\x0").reject \
+      { |f| f.match(%r{\A(?:test|spec|features)/}) }
   end
-  spec.bindir        = "exe"
+  spec.bindir        = 'exe'
   spec.executables   = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
-  spec.require_paths = ["lib"]
+  spec.require_paths = ['lib']
 
   # Register the development-specific dependencies
   spec.add_development_dependency 'bundler', '~> 2.0'
