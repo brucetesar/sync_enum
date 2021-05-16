@@ -1,8 +1,6 @@
 # frozen_string_literal: true
 
-require 'sync_enum/version'
+# Author: Bruce Tesar
 
-class SyncEnum
-  class Error < StandardError; end
-  # Your code goes here...
-end
+require 'sync_enum/version'
+require 'sync_enum/sync_enum'
