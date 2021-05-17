@@ -61,8 +61,8 @@ DEPENDENCIES
   rake (~> 13.0)
   rspec (~> 3.0)
   rubocop (~> 1.7)
-  rubocop-rake
-  rubocop-rspec
+  rubocop-rake (~> 0.5)
+  rubocop-rspec (~> 2.3)
   sync_enum!
 
 BUNDLED WITH
