@@ -29,7 +29,7 @@ Gem::Specification.new do |spec|
   spec.license       = 'MIT'
   spec.required_ruby_version = Gem::Requirement.new('>= 2.6.0')
 
-  spec.metadata['allowed_push_host'] = 'https://rubygems.org'
+  # spec.metadata['allowed_push_host'] = 'https://rubygems.org'
 
   spec.metadata['homepage_uri'] = spec.homepage
   spec.metadata['source_code_uri'] =
@@ -50,7 +50,10 @@ Gem::Specification.new do |spec|
 
   # Register the development-specific dependencies
   spec.add_development_dependency 'bundler', '~> 2.0'
+  spec.add_development_dependency 'launchy', '~> 2.5'
   spec.add_development_dependency 'rake', '~> 13.0'
   spec.add_development_dependency 'rspec', '~> 3.0'
   spec.add_development_dependency 'rubocop', '~> 1.7'
+  spec.add_development_dependency 'rubocop-rake'
+  spec.add_development_dependency 'rubocop-rspec'
 end
