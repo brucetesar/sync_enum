@@ -13,9 +13,10 @@ RSpec.describe SyncEnum do
   end
 
   context 'with one enumerator' do
+    let(:syncenum) { described_class.new(enum1) }
+
     before do
-      @syncenum = described_class.new(enum1)
-      loop { results << @syncenum.next }
+      loop { results << syncenum.next }
     end
 
     it 'returns an array for each element' do
@@ -23,7 +24,7 @@ RSpec.describe SyncEnum do
     end
 
     it 'raises StopIteration when next is called again' do
-      expect { @syncenum.next }.to raise_exception(StopIteration)
+      expect { syncenum.next }.to raise_exception(StopIteration)
     end
   end
 
