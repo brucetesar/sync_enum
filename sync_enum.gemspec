@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
 
       SyncEnum differs from the standard library's REXML::SyncEnumerator in
       its use of the #next external iterator interface, while
-      REXML::SyncEnumerator uses an #each internal interator interface. The
+      REXML::SyncEnumerator uses an #each internal iterator interface. The
       external interface is more convenient when you expect to end
       iteration before reaching the end of any of the enumerations,
       including cases where an enumerator generates an unending sequence.
@@ -27,7 +27,7 @@ Gem::Specification.new do |spec|
 
   spec.homepage      = 'https://github.com/brucetesar/sync_enum'
   spec.license       = 'MIT'
-  spec.required_ruby_version = Gem::Requirement.new('>= 2.6.0')
+  spec.required_ruby_version = '>= 2.6.0'
 
   # spec.metadata['allowed_push_host'] = 'https://rubygems.org'
 
@@ -56,4 +56,8 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rubocop', '~> 1.7'
   spec.add_development_dependency 'rubocop-rake', '~> 0.5'
   spec.add_development_dependency 'rubocop-rspec', '~> 2.3'
+
+  # Requires that future versions of this gem must be pushed using a
+  # rubygems account with multi-factor authentication (MFA) turned on.
+  spec.metadata['rubygems_mfa_required'] = 'true'
 end
