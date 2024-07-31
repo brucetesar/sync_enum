@@ -9,7 +9,7 @@ RSpec.describe SyncEnum do
   let(:results) { [] }
 
   it 'has a version number' do
-    expect(SyncEnum::VERSION).not_to be nil
+    expect(SyncEnum::VERSION).not_to be_nil
   end
 
   context 'with one enumerator' do
