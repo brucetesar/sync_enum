@@ -24,3 +24,8 @@ Metrics/BlockLength:
     - RSpec.describe
     - before
     - context
+
+# Gemspec Cop Configuration
+
+Gemspec/DevelopmentDependencies:
+  EnforcedStyle: gemspec
