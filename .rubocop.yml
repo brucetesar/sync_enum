@@ -20,10 +20,13 @@ Layout/LineLength:
 # RSpec Cop Configuration
 
 Metrics/BlockLength:
-  IgnoredMethods:
+  AllowedMethods:
     - RSpec.describe
     - before
     - context
+
+RSpec/IndexedLet:
+  Enabled: false  # stop telling me not to use examples like [1,2,3].
 
 # Gemspec Cop Configuration
 
