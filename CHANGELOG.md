@@ -1,3 +1,10 @@
+## [0.1.3] - 2024-08-05
+
+### Changed
+- Updated the version of REXML "again", to v. 3.3.3, due to
+  security issues (REXML is used by RuboCop, a development tool).
+- Updated the versions of a few other gem dependencies.
+
 ## [0.1.2] - 2024-07-30
 
 ### Changed
