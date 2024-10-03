@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    sync_enum (0.1.3)
+    sync_enum (0.1.4)
 
 GEM
   remote: https://rubygems.org/
@@ -23,8 +23,7 @@ GEM
     rainbow (3.1.1)
     rake (13.2.1)
     regexp_parser (2.9.2)
-    rexml (3.3.6)
-      strscan
+    rexml (3.3.8)
     rspec (3.13.0)
       rspec-core (~> 3.13.0)
       rspec-expectations (~> 3.13.0)
@@ -65,7 +64,6 @@ GEM
     rubocop-rspec_rails (2.29.1)
       rubocop (~> 1.61)
     ruby-progressbar (1.13.0)
-    strscan (3.1.0)
     unicode-display_width (2.5.0)
 
 PLATFORMS
