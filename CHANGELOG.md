@@ -1,3 +1,8 @@
+## [0.1.5] - 2024-10-29
+
+### Changed
+- Updated the version of REXML to v. 3.3.9, due to security issues.
+
 ## [0.1.4] - 2024-10-02
 
 ### Changed
