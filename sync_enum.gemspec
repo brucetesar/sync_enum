@@ -53,8 +53,8 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'launchy', '~> 2.5'
   spec.add_development_dependency 'rake', '~> 13.0'
   spec.add_development_dependency 'rspec', '~> 3.0'
-  spec.add_development_dependency 'rubocop', '~> 1.65'
-  spec.add_development_dependency 'rubocop-rake', '~> 0.5'
+  spec.add_development_dependency 'rubocop', '~> 1.81'
+  spec.add_development_dependency 'rubocop-rake', '~> 0.7'
   spec.add_development_dependency 'rubocop-rspec', '~> 2.31'
 
   # Requires that future versions of this gem must be pushed using a
