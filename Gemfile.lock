@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    sync_enum (0.1.6)
+    sync_enum (0.1.7)
 
 GEM
   remote: https://rubygems.org/
@@ -34,7 +34,7 @@ GEM
     rspec-expectations (3.13.5)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.13.0)
-    rspec-mocks (3.13.5)
+    rspec-mocks (3.13.6)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.13.0)
     rspec-support (3.13.6)

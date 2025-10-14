@@ -1,3 +1,10 @@
+## [0.1.7] - 2025-10-14
+
+### Changed
+- Updated the required version of rubocop to v. 1.81 or higher. This
+  eliminates the dependency on REXML, which is frequently updated due to
+  security concerns.
+
 ## [0.1.6] - 2025-09-25
 
 ### Changed
