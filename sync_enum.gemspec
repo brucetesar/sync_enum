@@ -58,6 +58,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rubocop-rspec', '~> 2.31'
 
   # Requires that future versions of this gem must be pushed using a
-  # rubygems account with multi-factor authentication (MFA) turned on.
+  # rubygems account with multifactor authentication (MFA) turned on.
   spec.metadata['rubygems_mfa_required'] = 'true'
 end
