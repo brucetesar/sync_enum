@@ -27,7 +27,7 @@ Gem::Specification.new do |spec|
 
   spec.homepage      = 'https://github.com/brucetesar/sync_enum'
   spec.license       = 'MIT'
-  spec.required_ruby_version = '>= 3.3.0'
+  spec.required_ruby_version = '>= 2.7.0'
 
   # spec.metadata['allowed_push_host'] = 'https://rubygems.org'
 
@@ -52,7 +52,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'bundler', '~> 2.0'
   spec.add_development_dependency 'launchy', '~> 2.5'
   spec.add_development_dependency 'rake', '~> 13.0'
-  spec.add_development_dependency 'rspec', '~> 3.9'
+  spec.add_development_dependency 'rspec', '~> 3.0'
   spec.add_development_dependency 'rubocop', '~> 1.81'
   spec.add_development_dependency 'rubocop-rake', '~> 0.7'
   spec.add_development_dependency 'rubocop-rspec', '~> 2.31'
