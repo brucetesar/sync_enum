@@ -2,5 +2,5 @@
 
 class SyncEnum
   # The version number for sync_enum.
-  VERSION = '0.1.7'
+  VERSION = '0.1.8'
 end

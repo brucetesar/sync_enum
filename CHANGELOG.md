@@ -1,3 +1,8 @@
+## [0.1.8] - 2026-04-01
+
+### Changed
+- Updated the used version of json to v. 2.19.3, due to security issues.
+
 ## [0.1.7] - 2025-10-14
 
 ### Changed
