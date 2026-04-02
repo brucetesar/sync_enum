@@ -1,3 +1,9 @@
+## [0.1.9] - 2026-04-01
+
+### Changed
+- Updated to use a newer version of rubocop (1.81.1). Rubocop now runs 
+  with no errors or warnings.
+
 ## [0.1.8] - 2026-04-01
 
 ### Changed
