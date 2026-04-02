@@ -1,9 +1,6 @@
-require:
-  - rubocop-rspec
-
 plugins:
   - rubocop-rake
-  - rubocop-capybara
+  - rubocop-rspec
 
 AllCops:
   TargetRubyVersion: 2.7
