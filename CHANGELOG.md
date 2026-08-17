@@ -1,3 +1,9 @@
+## [0.1.11] - 2026-08-17
+
+### Changed
+- Updated dependency json from 2.19.3 to 2.19.9, due to security
+  concerns.
+
 ## [0.1.10] - 2026-04-10
 
 ### Changed
